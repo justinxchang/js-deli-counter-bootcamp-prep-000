@@ -12,7 +12,7 @@ function nowServing(katzDeliLine){
 }
 
 function currentLine(arr){
-  if(arr.length > 1){
+  if(arr.length === 0){
     for(let i=0; i<arr.length; i++){
       return `${i+1}. ${arr[i]}`;
      }
