@@ -17,7 +17,7 @@ function currentLine(arr){
     for(let i=0; i<arr.length; i++){
       customer.push(`${i+1}. ${arr[i]}`)
      }
-     return customer
+     return `The line is currently: ${customer}.`
     } else {
       return "The line is currently empty."
     }
