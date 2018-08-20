@@ -11,4 +11,10 @@ function nowServing(katzDeliLine){
   }
 }
 
-function currentLine()
+function currentLine(arr){
+  if(arr.length > 1){
+    for(let i=0; i<arr.length; i++){
+      return `${i}. ${arr[i]}`;
+    } 
+  }
+}
