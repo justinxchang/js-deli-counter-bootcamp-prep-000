@@ -15,7 +15,7 @@ function currentLine(arr){
   if(arr.length > 1){
     var customer = [];
     for(let i=0; i<arr.length; i++){
-      customer.push(` ${i+1}. ${arr[i]}`)
+      customer.push(`${i+1}. ${arr[i]}`)
      }
      return `The line is currently: ${customer}`
     } else {
